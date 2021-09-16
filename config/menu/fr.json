@@ -2,6 +2,7 @@
   "menuItems": [
     { "name": "Accueil", "link": "/" },
     { "name": "En savoir plus", "link": "/savoirplus" },
+    { "name": "Test", "link": "/test" },
     { "name": "Blog", "link": "/blog" },
     { "name": "Contact", "link": "/contact" }
   ]

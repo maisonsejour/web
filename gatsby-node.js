@@ -13,7 +13,7 @@ exports.onCreatePage = ({ page, actions }) => {
   // So everything in src/pages/
   deletePage(page);
 
-  // Grab the keys ('en' & 'pt') of locales and map over them
+  // Grab the keys ('en' & 'fr') of locales and map over them
   Object.keys(locales).map(lang => {
     // Use the values defined in "locales" to construct the path
     const localizedPath = locales[lang].default
@@ -23,8 +23,8 @@ exports.onCreatePage = ({ page, actions }) => {
     return createPage({
       // Pass on everything from the original page
       ...page,
-      // Since page.path returns with a trailing slash (e.g. "/pt/")
-      // We want to remove that (e.g. "pt/")
+      // Since page.path returns with a trailing slash (e.g. "/fr/")
+      // We want to remove that (e.g. "fr/")
       path: removeTrailingSlash(localizedPath),
       // Pass in the locale as context to every page
       // This context also gets passed to the src/components/layout file
