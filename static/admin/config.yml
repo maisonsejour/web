@@ -3,7 +3,7 @@ backend:
     name: github # Prod
     repo: maisonsejour/web
     branch: master
-    site_domain: http://localhost:8000/
+    site_domain: https://romantic-poincare-d52761.netlify.app/
     
 
 publish_mode: editorial_workflow
