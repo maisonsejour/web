@@ -1,9 +1,9 @@
 backend:
-    #name: github # Local
-    name: git-gateway # Prod
+    #name: github # Local and git-gateway for Prod
+    name: github # Prod git-gateway
     repo: maisonsejour/web
     branch: master
-    site_domain: https://romantic-poincare-d52761.netlify.app/
+    site_domain: http://localhost:8000/ # https://romantic-poincare-d52761.netlify.app/
     
 
 publish_mode: editorial_workflow
