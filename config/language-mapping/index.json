@@ -12,6 +12,10 @@
       "en": "/contact",
       "pt": "/contato"
     },
+    {
+      "en": "/test",
+      "pt": "/test"
+    },
 
     {
       "en": "/blog/markdown-examples",
