@@ -1,5 +1,5 @@
 ---
-title: 'Sobre'
+title: 'En savoir plus'
 date: 2019-07-01 01:21:23
 page: true
 ---
